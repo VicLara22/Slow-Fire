@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 80px;
+    color: rgb(80, 80, 80);
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.containerP {
+    padding: 40px 100px;
+}
+
+p {
+    line-height: 2.5;
+    color: rgb(80, 80, 80);
+    font-size: 1.3em;
+}

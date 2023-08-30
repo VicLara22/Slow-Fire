@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.products {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.containerTitle{
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid  rgb(197, 197, 197);
+}
+
+.containerTitle h1 {
+    font-size: 1.5em;
+    padding-left: 180px;
+} 
+
+.container{
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 180px;
+ }
+ 
+
+.containerSubtitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 40px;
+}
+
+.containerSubtitle h1{
+    font-size: 1em;
+    line-height: 2;
+}
+.containerSubtitle p{
+    font-size: 1em;
+    line-height: 1.5;
+}

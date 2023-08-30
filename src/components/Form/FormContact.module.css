@@ -1,0 +1,74 @@
+.sectionFormContact {
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 180px;
+    padding-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: rgb(78, 78, 78);
+}
+
+input {
+    height: 35px;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+.btnEnviar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+    background-color: #e4cf17;;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: white;
+    color: #e4cf17;
+    border: 2px solid #e4cf17 ;
+    font-weight: 600;
+}
+span {
+    color: red;
+    padding-left: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+}
+
+input.error{
+    border: 1px solid red;
+    transition: 0.4s;
+}
+
+.inputField::placeholder {
+    font-size: 1em;
+    color: rgb(153, 153, 153);
+}

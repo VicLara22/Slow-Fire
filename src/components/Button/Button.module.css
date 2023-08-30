@@ -1,0 +1,31 @@
+.btns {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.btnProdutcs button {
+    background-color:  #e4cf17;;
+    color: rgb(0, 0, 0);
+    border:none;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+}
+
+.btnContact {
+    padding-left: 30px;
+}
+
+.btnContact button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.btnContact button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
