@@ -35,13 +35,12 @@ function Products() {
             <div className={style.containerTitle}>
                 <h1>Productos</h1>
             </div>
-            <div className={style.container} >
-                
-                <div className={style.containerSubtitle} >
-                    <h1>RECIPIENTES</h1>
-                    <p>Nuestros recipientes surgen a través de todo los inconvenientes que representan aquellos utilizados para la cocción del día a día. Fabricados con acero inoxidable a nivel quirúrgico con fondo termodifusor, nuestros recipientes permiten la perfecta distribución del calor y justa higiene para la cocción de los alimentos, preservando sus nutrientes naturales. El sistema de cocina al vapor de los recipientes Steel Way permite utilizarlos con un mínimo de agua para cocinar las comidas en vez de hervirlas. El recipiente retiene la humedad despedida por los alimentos y su cocción se continúa llevando a cabo con sus propios jugos, conservando todas sus propiedades naturales para garantizarle una alimentación saludable.</p>
-                </div>
 
+            <div className={style.containerSubtitle} >
+                <h1>RECIPIENTES</h1>
+                <p>Nuestros recipientes surgen a través de todo los inconvenientes que representan aquellos utilizados para la cocción del día a día. Fabricados con acero inoxidable a nivel quirúrgico con fondo termodifusor, nuestros recipientes permiten la perfecta distribución del calor y justa higiene para la cocción de los alimentos, preservando sus nutrientes naturales. El sistema de cocina al vapor de los recipientes Steel Way permite utilizarlos con un mínimo de agua para cocinar las comidas en vez de hervirlas. El recipiente retiene la humedad despedida por los alimentos y su cocción se continúa llevando a cabo con sus propios jugos, conservando todas sus propiedades naturales para garantizarle una alimentación saludable.</p>
+            </div>
+            <div className={style.container} >
                 <div>
                     {products ? (
                         products.map((p) => (

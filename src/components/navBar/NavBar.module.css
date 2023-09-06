@@ -1,3 +1,4 @@
+/* Estilo NavBar de escritorio */
 .nav {
    display: flex;
    width: 100%;
@@ -15,9 +16,16 @@
    color: white;
 }
 
+.navOnScroll {
+   display: flex;
+   height: 50px;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #e4cf17;
+}
+
 .containerLogo {
-   width: 310px;
-   height: 60px;
    display: flex;
    align-items: center;
    padding-left: 20px;
@@ -25,10 +33,9 @@
 
 .containerLogo img {
    width: 100px;
-   height: 60px;
+   height: 50px;
    border-radius: 50px;
 }
-
 
 .containerLogo h1 {
    margin-left: 10px;
@@ -38,29 +45,28 @@
 }
 
 .containerTitle {
-   display: inline-flex;
+   display: flex;
    align-items: center;
-   color: black;
-   padding-bottom: 20px;
+   color: #000000;
 }
 
 .containerTitle h1 {
    font-size: 0.8em;
-   margin-left: 50px;
-   padding-top: 20px;
+   margin-left: 80px;
+   padding-top: 10px;
    transition: color 0.5s, cursor 0.5s;
 }
 
 .containerTitle a {
    text-decoration: none;
    outline: none;
-   color: black;
+   color: rgb(255, 255, 255);
 }
 
 .containerTitle i {
    font-size: 1.2em;
-   padding-left: 50px;
-   padding-top: 20px;
+   padding-left: 80px;
+   padding-top: 10px;
    transition: color 0.5s, cursor 0.5s;
 }
 
@@ -68,4 +74,91 @@
 .containerTitle i:hover {
    cursor: pointer;
    color: white;
+}
+
+/* Estilo NavBar responsive */
+.navOpen {
+   position: fixed;
+   display: block;
+   width: 100%;
+   height: 100%;
+   background-color: #e4cf17;
+   flex-direction: column;
+   justify-content: start;
+
+}
+
+.containerMenu i {
+   display: flex;
+   justify-content: end;
+   font-size: 2.5em;
+   color: black;
+   transition: color 0.5s, cursor 0.5s;
+}
+
+.containerMenu i:hover {
+   color: white;
+   cursor: pointer;
+}
+
+.containerLink {
+   padding: 30px;
+}
+
+.navLink {
+   position: relative;
+   display: flex;
+   font-size: 1em;
+   color: #ffffff;
+   padding-bottom: 25px;
+   transition: color 0.5s, font 0.2s, cursor 0.5s;
+}
+
+.navLink:hover {
+   cursor: pointer;
+   color: black;
+   font-weight: 600;
+}
+
+.containerRedes {
+   display: flex;
+
+}
+
+.containerRedes i {
+   transition: color 0.5s, font 0.2s, cursor 0.5s;
+   font-size: 1.5em;
+   color: #ffffff;
+   justify-content: end;
+   padding: 0px 20px 0px 0px;
+}
+
+.containerRedes i:hover {
+   cursor: pointer;
+   color: black;
+}
+
+
+
+@media(min-width: 800px) {
+
+   .nav {
+      align-items: center;
+      justify-content: space-evenly;
+   }
+
+   .containerTitle {
+      width: 50%;
+   }
+
+   .navLink:hover {
+      font-size: 1.5em;
+      color: white;
+
+   }
+
+   .nav.navOnScroll {
+      background-color: #4a4564;
+   }
+
 }

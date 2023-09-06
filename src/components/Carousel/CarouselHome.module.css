@@ -14,14 +14,7 @@
     justify-content: center;
     height: 100vh;
   }
-  
-  .textTwo {
-    text-align: center;
-    color: white;
-    font-size: 2em;
-    padding-bottom: 30px;
-  }
- 
+   
   .text {
     text-align: center;
     font-size: 5em;
@@ -29,6 +22,13 @@
     animation: fade-in-out 5s infinite;  
     text-shadow: 3px 3px 3px  black;
   }
+  .textTwo {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding-bottom: 30px;
+  }
+
 
   @keyframes fade-in-out {
     0%, 100% {
@@ -43,4 +43,13 @@
   
   
   
+  @media(max-width: 800px) {
+    .text {
+      font-size: 2.5em;
+    }
+    .textTwo {
+      font-size: 1.5em;
+      padding-bottom: 30px;
+    }
   
+  }

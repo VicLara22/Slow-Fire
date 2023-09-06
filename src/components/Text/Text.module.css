@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 30px;
 }
 
 h1 {
@@ -13,11 +14,23 @@ h1 {
 }
 
 .containerP {
-    padding: 40px 100px;
+    padding: 50px;
 }
 
 p {
     line-height: 2.5;
     color: rgb(80, 80, 80);
     font-size: 1.3em;
+}
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        line-height: 1.8;
+        font-size: 1em;
+    }
+
 }
