@@ -108,7 +108,7 @@ function FormContact() {
                 )}
                 <label>Télefono <span>*</span></label>
                 <input
-                    type='numero'
+                    type='number'
                     name='phone'
                     value={value.phone}
                     onChange={(e) => handleChange(e)}
@@ -159,8 +159,7 @@ function FormContact() {
                     <p className={style.error}>{errors.asunto}</p>
                 )}
                 <label>Mensaje <span>*</span></label>
-                <input
-                    type='textarea'
+                <textarea
                     name='message'
                     value={value.message}
                     onChange={(e) => handleChange(e)}

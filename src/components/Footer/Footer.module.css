@@ -14,3 +14,65 @@ footer{
     color: white;
     font-size: 1em;
 }
+
+.whatsapp {
+    position: fixed;
+    display: flex;
+    background-color: #147437;
+    border-radius: 100%;
+    right: 0;
+    bottom: 4em;
+    padding: 0.9em;
+    padding-top: 5px;
+    margin-right: 1em;
+    transition: background-color 0.8s;
+}
+
+.msj{
+    display: none;
+    opacity: 0;
+    width: 150px;
+    height: 20px;
+    position: fixed;
+    display: flex;
+    background-color: #f7f7f7;
+    border-radius: 20px 0px 20px 20px;
+    right: 0;
+    bottom: 2em;
+    padding: 1.2em;
+    padding-top: 0px;
+    margin-right: 5em;
+    font-size: 1em;
+    border: 1px solid black;
+    transition: opacity  0.8s;
+}
+
+.whatsapp:hover{
+    cursor: pointer;
+    background-color: #25D366;
+}
+
+.whatsapp:hover + .msj {
+    display: block;
+    opacity: 1;
+}
+
+.whatsapp a {
+    margin-top: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: -3px;
+}
+
+.whatsapp i{
+    font-size: 2em;
+}
+
+@media(max-width: 800px) {
+    .msj{
+        height: 15px;
+        padding-top: 5px;
+
+    }
+
+}

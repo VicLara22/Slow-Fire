@@ -33,6 +33,15 @@ input {
     font-size: 1em;
     padding-left: 10px;
 }
+textarea{
+    height: 150px;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
 
 .btnEnviar {
     display: flex;
@@ -72,6 +81,11 @@ span {
 input.error{
     border: 1px solid red;
     transition: 0.4s;
+}
+
+textarea.error{
+    border: 1px solid red;
+    transition: 0.4s; 
 }
 
 .inputField::placeholder {
