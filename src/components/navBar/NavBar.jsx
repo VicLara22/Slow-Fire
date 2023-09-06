@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 import style from './NavBar.module.css';
 import img from '../../assets/img1.jpg';
 import { useEffect, useState } from 'react';
-import useScrollPosition from '../../hook/scrollPosition';
-
+import useScrollPosition from '../../hook/ScrollPosition';
 
 
 function NavBar() {
