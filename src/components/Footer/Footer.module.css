@@ -35,7 +35,7 @@ footer{
     height: 20px;
     position: fixed;
     display: flex;
-    background-color: #f7f7f7;
+    background-color: white;
     border-radius: 20px 0px 20px 20px;
     right: 0;
     bottom: 2em;

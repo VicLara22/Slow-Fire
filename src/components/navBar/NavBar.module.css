@@ -108,7 +108,7 @@
 .navLink {
    position: relative;
    display: flex;
-   font-size: 1em;
+   font-size: em;
    color: #ffffff;
    padding-bottom: 25px;
    transition: color 0.5s, font 0.2s, cursor 0.5s;
@@ -162,3 +162,12 @@
    }
 
 }
+
+@media(min-width: 300px) {
+  
+.containerLogo h1 {
+   font-size: 25px;
+}
+
+}
+
