@@ -29,3 +29,25 @@
     border: 1px solid black;
     cursor: pointer;
 }
+
+@media(min-width: 300px) {
+    .btnProdutcs button{
+        width: 150px;    
+    }
+    .btnContact button {
+        width: 150px;    
+    }
+}
+
+
+@media(min-width: 200px) {
+    .btnProdutcs button{
+        width: 130px;    
+    }
+    .btnContact button {
+        width: 130px;    
+    }
+}
+
+
+
