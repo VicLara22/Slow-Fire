@@ -18,7 +18,7 @@ footer{
 .whatsapp {
     position: fixed;
     display: flex;
-    background-color: #147437;
+    background-color: #25D366;
     border-radius: 100%;
     right: 0;
     bottom: 4em;
@@ -49,7 +49,6 @@ footer{
 
 .whatsapp:hover{
     cursor: pointer;
-    background-color: #25D366;
 }
 
 .whatsapp:hover + .msj {
@@ -76,3 +75,11 @@ footer{
     }
 
 }
+
+@media(min-width: 300px) {
+    .msj{
+        width: 200px;
+        font-size: 0.9em;
+    }
+}
+
